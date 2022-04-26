@@ -1,0 +1,42 @@
+[2022-04-22 23:39:04] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint [FK4OKCQR9IQT2IW6XHY1PPSMO3L]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-22 23:40:14] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint [FK4OKCQR9IQT2IW6XHY1PPSMO3L]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-22 23:51:44] [ERROR] [GlobalExceptionHandler:18] Content type 'text/plain;charset=UTF-8' not supported
+[2022-04-23 00:23:02] [INFO ] [PacienteService:33] Agregando/modificando paciente en la base de datos...
+[2022-04-23 00:23:02] [DEBUG] [PacienteService:40] Datos guardados exitosamente.
+[2022-04-23 00:23:02] [INFO ] [PacienteService:33] Agregando/modificando paciente en la base de datos...
+[2022-04-23 00:23:02] [DEBUG] [PacienteService:40] Datos guardados exitosamente.
+[2022-04-23 03:06:08] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint [FK4OKCQR9IQT2IW6XHY1PPSMO3L]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 15:45:13] [ERROR] [GlobalExceptionHandler:18] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "{paciente.id}"
+[2022-04-23 15:46:18] [ERROR] [GlobalExceptionHandler:18] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "{paciente.id}"
+[2022-04-23 16:53:35] [ERROR] [GlobalExceptionHandler:18] Request method 'POST' not supported
+[2022-04-23 16:54:40] [ERROR] [GlobalExceptionHandler:18] Request method 'PUT' not supported
+[2022-04-23 16:56:39] [ERROR] [GlobalExceptionHandler:18] Request method 'PUT' not supported
+[2022-04-23 16:57:48] [ERROR] [GlobalExceptionHandler:18] Request method 'PUT' not supported
+[2022-04-23 17:02:20] [ERROR] [GlobalExceptionHandler:18] Request method 'PUT' not supported
+[2022-04-23 17:04:46] [ERROR] [GlobalExceptionHandler:18] Request method 'PUT' not supported
+[2022-04-23 17:41:51] [ERROR] [GlobalExceptionHandler:18] Request method 'PUT' not supported
+[2022-04-23 19:12:10] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2)"; SQL statement:
+delete from pacientes where id=? [23503-210]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 19:12:17] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-210]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 19:12:25] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-210]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 19:12:34] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2)"; SQL statement:
+delete from pacientes where id=? [23503-210]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 19:13:40] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2)"; SQL statement:
+delete from pacientes where id=? [23503-210]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 19:14:10] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-210]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 19:14:12] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2)"; SQL statement:
+delete from pacientes where id=? [23503-210]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 19:14:35] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (2)"; SQL statement:
+delete from pacientes where id=? [23503-210]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 19:15:41] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-210]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 20:53:17] [ERROR] [GlobalExceptionHandler:18] could not execute statement; SQL [n/a]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-04-23 20:53:54] [ERROR] [GlobalExceptionHandler:18] JSON parse error: Cannot construct instance of `com.clinica.odontologia.model.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('1'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.clinica.odontologia.model.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('1')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.clinica.odontologia.model.dto.TurnoDTO["paciente"])
+[2022-04-23 20:56:20] [ERROR] [GlobalExceptionHandler:18] JSON parse error: Cannot construct instance of `com.clinica.odontologia.model.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('2'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.clinica.odontologia.model.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('2')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.clinica.odontologia.model.dto.TurnoDTO["paciente"])
+[2022-04-23 21:00:13] [ERROR] [GlobalExceptionHandler:18] JSON parse error: Cannot construct instance of `com.clinica.odontologia.model.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('2'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.clinica.odontologia.model.Paciente` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('2')
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 13] (through reference chain: com.clinica.odontologia.model.dto.TurnoDTO["paciente"])

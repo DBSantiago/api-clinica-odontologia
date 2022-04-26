@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.lista{
+    text-align: left;
+    width: 50%;
+    margin: 10% auto;
+    font-weight: 500;
+}
